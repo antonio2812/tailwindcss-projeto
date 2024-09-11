@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+
+    <title>Instagram Tailwind CSS</title>
+</head>
+<body>
+
+    <div class="h-screen w-screen grid grid-cols-1 md:grid-cols-2 grid-rows-6">
+
+        <div class="row-span-5 md:flex justify-end hidden">
+            <img class="w-max-96" src="./img/insta-img.png" alt="Imagem do Instagram">
+        </div>
+    
+        <div class="row-span-5 flex flex-col justify-center items-center grid-cols-1">
+            <form action="" class="w-80 flex flex-col justify-center items-center border rounded-sm px-10 py-4 gap-5">
+                <img class="w-52" src="./img/insta-logo.png" alt="Logo do Instagram">
+    
+                <input class="bg-slate-50 h-9 w-full pl-3 border rounded-sm" type="text" placeholder="E-mail">
+                <input class="bg-slate-50 h-9 w-full pl-3 border rounded-sm" type="password" placeholder="Senha">
+    
+                <button class="bg-blue-400 w-full rounded-md right-8 text-slate-50 hover:bg-blue-300 transition duration-150">Entrar</button>
+    
+                <a class="text-blue-800 font-bold cursor-pointer hover:text-blue-300 transition duration-150" href="#">Logar com o Facebook</a>
+                <a class="text-blue-800 font-bold cursor-pointer hover:text-blue-300 transition duration-150" href="#">Esqueci minha Senha</a>
+            </form>
+    
+            <div class="border w-80 my-4 text-center py-4">
+                <p>Não tem Conta ? <a class="text-blue-400 font-bold cursor-pointer hover:text-blue-300 transition duration-150" href="#">Cadastrar-se</a></p>
+            </div>
+    
+            <p>Baixe o Aplicativo</p>
+    
+            <div class="flex gap-2 mt-4">
+                <img class="h-10 cursor-pointer" src="./img/apple.png" alt="Imagem da Apple Store" title="Apple Store">
+                <img class="h-10 cursor-pointer" src="./img/google.png" alt="Imagem da Google Play Store" title="Google Play Store">
+            </div>
+        </div>
+    
+        <div class="row-span-1 col-span-2 ">
+            <ul class="flex flex-wrap gap-5 justify-center ">
+                <a class="text-slate-800 text-sm hover:text-slate-600 trtionansi duration-150" href="#"><li>Meta</li></a>
+                <a class="text-slate-800 text-sm hover:text-slate-600 transition duration-150" href="#"><li>About</li></a>
+                <a class="text-slate-800 text-sm hover:text-slate-600 transition duration-150" href="#"><li>Blog</li></a>
+                <a class="text-slate-800 text-sm hover:text-slate-600 transition duration-150" href="#"><li>Jobs</li></a>
+                <a class="text-slate-800 text-sm hover:text-slate-600 transition duration-150" href="#"><li>Help</li></a>
+                <a class="text-slate-800 text-sm hover:text-slate-600 transition duration-150" href="#"><li>API</li></a>
+                <a class="text-slate-800 text-sm hover:text-slate-600 transition duration-150" href="#"><li>Privacy</li></a>
+                <a class="text-slate-800 text-sm hover:text-slate-600 transition duration-150" href="#"><li>Terms</li></a>
+                <a class="text-slate-800 text-sm hover:text-slate-600 transition duration-150" href="#"><li>Locations</li></a>
+                <a class="text-slate-800 text-sm hover:text-slate-600 transition duration-150" href="#"><li>Instagram Lite</li></a>
+                <a class="text-slate-800 text-sm hover:text-slate-600 transition duration-150" href="#"><li>Threads</li></a>
+                <a class="text-slate-800 text-sm hover:text-slate-600 transition duration-150" href="#"><li>Contact Uploading and no-users</li></a>
+                <a class="text-slate-800 text-sm hover:text-slate-600 transition duration-150" href="#"><li>Meta Verified</li></a>
+            </ul>
+    
+            <ul class="flex flex-wrap gap-5 justify-center mt-6">
+                <li class="text-slate-800">Português (Brasil)</li>
+                <li class="text-slate-800"> 2024 Instagram From Meta</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
